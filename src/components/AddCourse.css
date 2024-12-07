@@ -1,0 +1,78 @@
+/* Bố trí container chính */
+.add-course-container {
+    max-width: 400px; /* Độ rộng tối đa */
+    margin: 50px auto; /* Canh giữa theo chiều ngang và thêm khoảng cách trên dưới */
+    padding: 20px;
+    border: 1px solid #ccc; /* Đường viền màu xám nhạt */
+    border-radius: 8px; /* Góc bo tròn */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    background-color: #f9f9f9; /* Màu nền */
+  }
+  
+  /* Tiêu đề chính */
+  .add-course-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Bố trí form */
+  .add-course-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Mỗi nhóm input */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Tiêu đề cho input và textarea */
+  .form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Các input và textarea */
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  /* Hiệu ứng khi focus vào input/textarea */
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Nút bấm */
+  .submit-button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Hiệu ứng khi hover vào nút bấm */
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

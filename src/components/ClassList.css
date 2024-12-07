@@ -1,0 +1,77 @@
+/* Container chính */
+.class-list-container {
+    max-width: 1000px; /* Độ rộng tối đa */
+    margin: 50px auto; /* Canh giữa */
+    padding: 20px;
+    background-color: #f9f9f9; /* Nền nhạt */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 8px; /* Góc bo tròn */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  }
+  
+  /* Tiêu đề chính */
+  .class-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Bảng */
+  .class-table {
+    width: 100%;
+    border-collapse: collapse; /* Bỏ khoảng cách giữa các đường kẻ bảng */
+    margin-top: 10px;
+  }
+  
+  /* Đầu bảng */
+  .class-table thead th {
+    background-color: #007bff; /* Màu nền cho đầu bảng */
+    color: white; /* Màu chữ */
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  /* Dữ liệu bảng */
+  .class-table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Hàng xen kẽ màu nền */
+  .class-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4; /* Màu nền cho hàng chẵn */
+  }
+  
+  /* Hiệu ứng hover */
+  .class-table tbody tr:hover {
+    background-color: #e9f5ff; /* Màu nền khi hover */
+  }
+  
+  /* Căn chỉnh văn bản trong bảng */
+  .class-table th, .class-table td {
+    text-align: left;
+  }
+  
+  /* Cột hành động */
+.class-table tbody td.action {
+  text-align: center; /* Canh giữa nút */
+}
+
+/* Nút xóa */
+.delete-button {
+  background-color: #dc3545; /* Màu đỏ */
+  color: white; /* Màu chữ trắng */
+  border: none; /* Bỏ đường viền */
+  border-radius: 4px; /* Góc bo tròn */
+  padding: 5px 10px;
+  cursor: pointer; /* Hiển thị con trỏ khi hover */
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Màu đỏ đậm hơn khi hover */
+}

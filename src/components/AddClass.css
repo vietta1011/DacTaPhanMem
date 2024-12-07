@@ -1,0 +1,67 @@
+/* Container chính */
+.add-class-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9; /* Màu nền nhạt */
+  }
+  
+  /* Tiêu đề */
+  .add-class-container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form */
+  .add-class-form {
+    background-color: #fff; /* Nền trắng */
+    padding: 20px;
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 8px; /* Góc bo tròn */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    width: 100%;
+    max-width: 500px; /* Chiều rộng tối đa */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Khoảng cách giữa các mục */
+  }
+  
+  /* Nhãn (label) */
+  .add-class-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Input và Select */
+  .add-class-form input,
+  .add-class-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+  }
+  
+  /* Nút bấm */
+  .add-class-form button {
+    align-self: center; /* Canh giữa */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-class-form button:hover {
+    background-color: #0056b3;
+  }
+  

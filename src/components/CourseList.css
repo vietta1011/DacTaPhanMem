@@ -1,0 +1,77 @@
+/* Container chính */
+.course-list-container {
+    max-width: 900px;
+    margin: 50px auto; /* Canh giữa và thêm khoảng cách trên dưới */
+    padding: 20px;
+    background-color: #f9f9f9; /* Nền nhạt */
+    border: 1px solid #ccc; /* Viền xung quanh */
+    border-radius: 8px; /* Góc bo tròn */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+  }
+  
+  /* Tiêu đề chính */
+  .course-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Bảng */
+  .course-table {
+    width: 100%;
+    border-collapse: collapse; /* Bỏ khoảng cách giữa các đường kẻ bảng */
+    margin-top: 10px;
+  }
+  
+  /* Đầu bảng */
+  .course-table thead th {
+    background-color: #007bff; /* Màu nền đầu bảng */
+    color: white; /* Màu chữ */
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #0056b3; /* Đường kẻ dưới cùng */
+  }
+  
+  /* Hàng và cột trong bảng */
+  .course-table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Đường kẻ giữa các hàng */
+  }
+  
+  /* Hàng chẵn và lẻ (hiệu ứng sọc) */
+  .course-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4; /* Màu nền cho hàng chẵn */
+  }
+  
+  /* Hiệu ứng hover */
+  .course-table tbody tr:hover {
+    background-color: #e9f5ff; /* Màu khi hover */
+  }
+  
+  /* Căn chỉnh nội dung */
+  .course-table th, .course-table td {
+    text-align: left;
+  }
+  
+  /* Cột hành động */
+.course-table tbody td.action {
+  text-align: center; /* Canh giữa nội dung */
+}
+
+/* Nút xóa */
+.delete-button {
+  background-color: #dc3545; /* Màu đỏ */
+  color: white; /* Màu chữ trắng */
+  border: none; /* Bỏ đường viền */
+  border-radius: 4px; /* Bo góc */
+  padding: 5px 10px; /* Kích thước nút */
+  cursor: pointer; /* Hiển thị con trỏ khi hover */
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Màu đỏ đậm hơn khi hover */
+}
