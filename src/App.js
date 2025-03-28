@@ -4,7 +4,7 @@ import CourseList from "./components/CourseList";
 import AddCourse from "./components/AddCourse";
 import ClassList from "./components/ClassList";
 import AddClass from "./components/AddClass";
-import "./App.css"; // Import CSS
+import "./App.css";
 
 function App() {
   return (
